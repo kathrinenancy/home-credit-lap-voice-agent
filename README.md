@@ -8,7 +8,9 @@ The agent asks qualification questions, evaluates customer responses against pre
 
 ## Live Demo
 
-**Try the Retell AI Voice Agent:** [Click Here to Interact with the Agent]([https://chatgpt.com/c/YOUR_RETELL_SHARE_LINK](https://agent.retellai.com/orb/agent_dd6ffb68a44e4deabf0dfe7e84?token=fccc94c99599e6f064256b68b15cf311))
+**Try the Retell AI Voice Agent:** [Click Here to Interact with the Agent](https://agent.retellai.com/orb/agent_dd6ffb68a44e4deabf0dfe7e84?token=fccc94c99599e6f064256b68b15cf311)
+
+Interact with the voice agent to experience the preliminary Loan Against Property (LAP) qualification process.
 
 ## Key Features
 
@@ -26,10 +28,12 @@ The agent asks qualification questions, evaluates customer responses against pre
 
 The agent follows **seven qualification checks** defined in its system prompt.
 
-- Asks the required qualification questions.
-- Evaluates customer responses against predefined criteria.
-- Identifies potentially eligible and disqualified applicants.
-- Guides eligible customers toward the next step with a senior loan expert.
+The qualification process includes:
+
+- Asking the required qualification questions.
+- Evaluating customer responses against predefined eligibility criteria.
+- Identifying potentially eligible and disqualified applicants.
+- Guiding eligible customers toward the next step with a senior loan expert.
 
 > **Important:** The agent provides preliminary qualification guidance only. It does not make final loan approval decisions or guarantee loan disbursal.
 
@@ -58,14 +62,16 @@ The agent was tested using **Retell AI's Test LLM** and a shareable voice intera
 
 ## Technology Stack
 
-- **Retell AI** — Voice agent development and deployment
-- **Large Language Model (LLM)** — Conversational processing and response generation
-- **Prompt Engineering** — Qualification rules and conversational workflow design
-- **Scenario-Based Testing** — Validation of customer interactions and expected behavior
+- **Retell AI:** Voice agent development and deployment.
+- **Large Language Model (LLM):** Conversational processing and response generation.
+- **Prompt Engineering:** Qualification rules and conversational workflow design.
+- **Scenario-Based Testing:** Validation of customer interactions and expected behavior.
 
 ## Project Purpose
 
-This project demonstrates:
+This project demonstrates the practical application of conversational AI in a preliminary loan qualification workflow.
+
+The key areas covered include:
 
 - **Conversational AI Design**
 - **Loan Qualification Workflows**
