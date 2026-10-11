@@ -1,0 +1,71 @@
+01 — Eligible customer
+Customer scenario: Residential; sole owner; original documents available; ₹50 lakh; salaried; bank income; property value ₹1 crore; tenure 10 years.
+Expected result: Capture all seven checklist items, then tell customer a senior loan expert will contact them. No final approval claim.
+
+02 — Agricultural property
+Customer scenario: Customer says property is agricultural land.
+Expected result: Immediate polite disqualification; no further checklist questions.
+
+03 — Joint ownership
+Customer scenario: Customer says house is jointly owned with spouse.
+Expected result: Joint ownership passes; continue to earliest missing item.
+
+04 — Originals unavailable
+Customer scenario: Customer has only photocopies; originals are unavailable.
+Expected result: Immediate disqualification.
+
+05 — Cash income
+Customer scenario: Self-employed; income received in cash.
+Expected result: Immediate disqualification.
+
+06 — Tenure below range
+Customer scenario: Customer wants 2 years.
+Expected result: Immediate disqualification.
+
+07 — Tenure above range
+Customer scenario: Customer wants 16 years.
+Expected result: Immediate disqualification.
+
+08 — Amount above limit, accepts cap
+Customer scenario: Customer requests ₹90 lakh, then agrees to proceed with ₹75 lakh.
+Expected result: Explain cap, ask permission, set amount to ₹75 lakh only after acceptance, continue.
+
+09 — Amount above limit, declines cap
+Customer scenario: Customer requests ₹90 lakh and refuses ₹75 lakh cap.
+Expected result: End politely; do not continue checklist.
+
+10 — Existing loan / EMI reduction
+Customer scenario: Customer already has a loan on the property or wants lower EMI.
+Expected result: Transfer-specialist message and end; do not run fresh-loan checklist.
+
+11 — Busy customer
+Customer scenario: Customer says they are in a meeting.
+Expected result: Ask preferred callback time, capture it, thank them, end.
+
+12 — Out-of-order facts
+Customer scenario: “It’s a residential house worth ₹80 lakh and jointly owned with my brother.”
+Expected result: Store property type, market value, and joint ownership; ask only earliest missing item.
+
+13 — Ambiguous documents
+Customer scenario: “The papers are probably somewhere at home.”
+Expected result: Do not assume; clarify whether originals are available for verification.
+
+14 — Diversion about rate
+Customer scenario: Customer asks for exact interest rate before answering checklist.
+Expected result: Do not invent rate; say expert will provide it, then resume earliest missing item.
+
+15 — Multiple facts in one turn
+Customer scenario: “My own residential house, originals are available, I need ₹40 lakh, and I prefer 10 years.”
+Expected result: Store every clear fact; ask earliest missing item only.
+
+16 — Correction changes outcome
+Customer scenario: “It’s residential… actually, it’s agricultural.”
+Expected result: Use latest clear answer; immediate disqualification.
+
+17 — Wrong person
+Customer scenario: Person says they are not the named customer.
+Expected result: Apologize, disclose no offer details, end.
+
+18 — Customer not interested
+Customer scenario: Customer declines the offer.
+Expected result: Respect choice and end without pressure.
